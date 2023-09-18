@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-scak
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/bootstrap/nbe-e2e-duza-tenant/integ-app-jzqg/hacbs-test-project-scak@sha256:f7b7bdbc3489c01f0c47add86384722e95f60c895daedb63ce4a4d986db49380
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
